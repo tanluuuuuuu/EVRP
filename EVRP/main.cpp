@@ -71,7 +71,6 @@ struct point
 	bool add = false;
 };
 
-
 char* problem_instance;
 vector<struct node> node_list;			//List of nodes with id and x and y coordinates
 vector<int> cust_demand;                //List with id and customer demands
@@ -80,8 +79,6 @@ vector<vector<double>> distances;       //Distance matrix
 int problem_size;						//Problem dimension read
 vector<vector<int>>cluster;				//nCluster=MIN_VEHICLES
 double energy_consumption;
-
-
 
 int NUM_OF_CUSTOMERS;			//number of customer set
 int ACTUAL_PROBLEM_SIZE; 		//total number of nodes
