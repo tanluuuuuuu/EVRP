@@ -195,15 +195,6 @@ ll distance2points(point point1, point point2)
 	 1 --> point1, point2 and point3 are clockwise
 	 -1 --> point1, point2 and point3 are counterclockwise
 */
-//ll orientation3points(point point1, point point2, point point3)
-//{
-//	ll value_orientation = (point2.y - point1.y) * (point3.x - point2.x) - (point2.x - point1.x) * (point3.y - point2.y);
-//	if (value_orientation > 0)
-//		return 1;
-//	else if (value_orientation < 0)
-//		return -1;
-//	return 0;
-//}
 
 int orientation(point a, point b, point c) {
 	double v = a.x * (b.y - c.y) + b.x * (c.y - a.y) + c.x * (a.y - b.y);
@@ -319,10 +310,7 @@ vector<point> randomGeneratePoints(ll n)
 		}
 		vtpoints.push_back({ i, xx, yy });
 	}
-	//for (int i = 0; i < n; i++)
-	//{
-	//	cout << vtpoints[i].id << " " << vtpoints[i].x << " " << vtpoints[i].y << endl;
-	//}
+
 	return vtpoints;
 }
 
@@ -385,11 +373,6 @@ int main()
 		else
 		{
 			cout << "OK" << endl;
-			/*for (auto x : ans)
-			{
-				cout << x.id << " ";
-			}
-			system("pause");*/
 		}
 	}
 
