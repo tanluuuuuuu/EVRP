@@ -191,6 +191,7 @@ double Euclideandistance(point a, point b)
 
 void getAns(vector<vector<point>> cvHulls, int index, int id)
 {
+	// gke vay sao
 	if (cvHulls[index].size() <= 2)
 	{
 		while (index != cvHulls.size())
