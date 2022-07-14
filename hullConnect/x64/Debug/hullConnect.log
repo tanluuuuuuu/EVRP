@@ -1,0 +1,34 @@
+﻿  hull.cpp
+D:\EVRP\hullConnect\hull.cpp(67,32): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\EVRP\hullConnect\hull.cpp(96,34): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\EVRP\hullConnect\hull.cpp(189,55): warning C4244: 'return': conversion from 'float' to 'll', possible loss of data
+D:\EVRP\hullConnect\hull.cpp(258,2): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\EVRP\hullConnect\hull.cpp(313,12): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\EVRP\hullConnect\hull.cpp(314,12): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\EVRP\hullConnect\hull.cpp(317,16): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\EVRP\hullConnect\hull.cpp(318,16): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\EVRP\hullConnect\hull.cpp(357,21): warning C4018: '<': signed/unsigned mismatch
+D:\EVRP\hullConnect\hull.cpp(361,22): warning C4018: '<': signed/unsigned mismatch
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\utility(190,16): warning C4244: 'initializing': conversion from 'float' to '_Ty1', possible loss of data
+          with
+          [
+              _Ty1=ll
+          ]
+D:\EVRP\hullConnect\hull.cpp(315): message : see reference to function template instantiation 'std::pair<ll,ll>::pair<float&,float&,0>(_Other1,_Other2) noexcept' being compiled
+          with
+          [
+              _Other1=float &,
+              _Other2=float &
+          ]
+D:\EVRP\hullConnect\hull.cpp(315): message : see reference to function template instantiation 'std::pair<ll,ll>::pair<float&,float&,0>(_Other1,_Other2) noexcept' being compiled
+          with
+          [
+              _Other1=float &,
+              _Other2=float &
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\utility(190,54): warning C4244: 'initializing': conversion from 'float' to '_Ty2', possible loss of data
+          with
+          [
+              _Ty2=ll
+          ]
+  hullConnect.vcxproj -> D:\EVRP\x64\Debug\hullConnect.exe

@@ -1,0 +1,40 @@
+﻿  main.cpp
+D:\EVRP\EVRP\main.cpp(29,32): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\EVRP\EVRP\main.cpp(134,6): warning C4101: 'run': unreferenced local variable
+D:\EVRP\EVRP\main.cpp(221,32): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\EVRP\EVRP\main.cpp(250,34): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\EVRP\EVRP\main.cpp(383,24): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\EVRP\EVRP\main.cpp(658,14): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\EVRP\EVRP\main.cpp(717,60): warning C4244: 'argument': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+D:\EVRP\EVRP\main.cpp(779,25): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\EVRP\EVRP\main.cpp(781,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\EVRP\EVRP\main.cpp(811,25): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\EVRP\EVRP\main.cpp(813,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\EVRP\EVRP\main.cpp(916,5): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\EVRP\EVRP\main.cpp(1070,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\EVRP\EVRP\main.cpp(1237,22): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\EVRP\EVRP\main.cpp(1245,22): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\EVRP\EVRP\main.cpp(1278,29): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\numeric(34,26): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\numeric(41): message : see reference to function template instantiation '_Ty std::accumulate<_InIt,_Ty,std::plus<void>>(const _InIt,const _InIt,_Ty,_Fn)' being compiled
+          with
+          [
+              _Ty=int,
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<double>>>,
+              _Fn=std::plus<void>
+          ]
+D:\EVRP\EVRP\main.cpp(712): message : see reference to function template instantiation '_Ty std::accumulate<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<double>>>,int>(const _InIt,const _InIt,_Ty)' being compiled
+          with
+          [
+              _Ty=int,
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<double>>>
+          ]
+  EVRP.vcxproj -> D:\EVRP\x64\Debug\EVRP.exe
